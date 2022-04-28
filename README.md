@@ -1,6 +1,6 @@
 # rn-takeo-cached-image
 
-A package that make remote resource request and map resource to Model object.
+A ReactNative package for image caching.
 
 # Setup
   ### 1. Installation
@@ -8,8 +8,10 @@ A package that make remote resource request and map resource to Model object.
   `npm install rn-takeo-cached-image` or `yarn add rn-takeo-cached-image`
 
   ### 2. Install Dependencies
-  `npm install react-native-fs` or `yarn add react-native-fs`
-  `npm install react-native-sqlite-storage` or `yarn add react-native-sqlite-storage`
+  ``` 
+    npm install react-native-fs or yarn add react-native-fs
+     npm install react-native-sqlite-storage` or `yarn add react-native-sqlite-storage
+  ```
 
   ### 3. IOS
   `cd ios; pod install`
