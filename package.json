@@ -1,0 +1,88 @@
+{
+  "name": "rn-takeo-cached-image",
+  "version": "1.0.0",
+  "description": "A ReactNative package for image caching.",
+  "main": "dist/module/index.js",
+  "module": "dist/module/index.js",
+  "react-native": "src/index.ts",
+  "types": "dist/typescript/src/index.d.ts",
+  "files": [
+    "dist/",
+    "src/"
+  ],
+  "scripts": {
+    "prepare": "bob build",
+    "totgz": "npm pack",
+    "topublish": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chhanhtrao/rn-takeo-cached-image.git"
+  },
+  "keywords": [
+    "react-native",
+    "ReactNative",
+    "Image",
+    "caching",
+    "cached",
+    "image",
+    "takeo",
+    "trao",
+    "chhanhtrao",
+    "chhtrao",
+    "chhanh",
+    "takeo",
+    "cambodia",
+    "khmer",
+    "developer",
+    "cambodia",
+    "react",
+    "image",
+    "library",
+    "ios",
+    "android",
+    "react-component",
+    "ui",
+    "mobile"
+  ],
+  "author": "Trao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chhanhtrao/rn-takeo-cached-image/issues"
+  },
+  "homepage": "https://github.com/chhanhtrao/rn-takeo-cached-image#readme",
+  "dependencies": {
+    "react-native-fs": "^2.19.0",
+    "react-native-sqlite-storage": "^6.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/runtime": "^7.17.9",
+    "@react-native-community/bob": "^0.17.1",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "@types/jest": "^27.4.1",
+    "@types/react-native": "^0.67.4",
+    "@types/react-native-sqlite-storage": "^5.0.2",
+    "@types/react-test-renderer": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0",
+    "babel-jest": "^27.5.1",
+    "eslint": "^8.13.0",
+    "jest": "^27.5.1",
+    "metro-react-native-babel-preset": "^0.70.1",
+    "react-test-renderer": "18.0.0",
+    "typescript": "^4.6.3"
+  },
+  "peerDependencies": {
+    "react": "18.0.0",
+    "react-native": "0.68.1"
+  },
+  "@react-native-community/bob": {
+    "source": "src",
+    "output": "dist",
+    "targets": [
+      "module",
+      "typescript"
+    ]
+  }
+}
