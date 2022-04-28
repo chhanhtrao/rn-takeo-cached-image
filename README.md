@@ -1,4 +1,4 @@
-# takeo
+# rn-takeo-cached-image
 
 A package that make remote resource request and map resource to Model object.
 
@@ -16,10 +16,6 @@ A package that make remote resource request and map resource to Model object.
 
   ### 4. Android
   Auto linked
-
-  ```javascript
-  import {request, models} from 'takeo';
-  ```
 
 # Usage
   ```javascript
