@@ -10,7 +10,7 @@ A ReactNative package for image caching.
   ### 2. Install Dependencies
   ``` 
   npm install react-native-fs or yarn add react-native-fs
-  npm install react-native-sqlite-storage` or `yarn add react-native-sqlite-storage
+  npm install react-native-sqlite-storage or yarn add react-native-sqlite-storage
   ```
 
   ### 3. IOS
